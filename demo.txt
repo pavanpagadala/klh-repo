@@ -1,3 +1,6 @@
 Java Full Stack Development
 Welcome to Full Stack Development
+<<<<<<< HEAD
 Local Repo to Cloud Repo
+=======
+>>>>>>> 7975671f2b5e1c038280de9ce3505b5554cf21b9
