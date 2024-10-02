@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Grid Use case</title>
+        <style>
+            .parent{
+                height: 100vh;
+                display: grid;
+                grid-template-rows: 10% 80% 10%;
+                grid-template-columns: 15% 70% 15%;
+            }
+            .header{
+                background-color: lightcoral;
+                grid-column: 1/4;
+                grid-row: 1/2;
+            }
+            .leftmenu{
+                background-color: lightblue;
+                grid-column:1/2 ;
+                grid-row: 2/3;
+            }
+            .main{
+                background-color: brown;
+                grid-column:2/3 ;
+                grid-row: 2/3;
+            }
+            .righmenu{
+                background-color: palevioletred;
+                grid-column: 3/4;
+                grid-row: 2/3;
+            }
+            .footer{
+                background-color: blueviolet;
+                grid-column: 1/4;
+                grid-row: 3/4;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <!--parent -->
+        <div class="parent">
+            <!--GRID ITEM1 -->
+            <div class="header">KLU</div>
+            <div class="leftmenu">Menu</div>
+            <div class="main">Main</div>
+            <div class="rightmenu">RightMenu</div>
+            <div class="footer">Footer</div>
+
+        </div>
+    </body>
+</html>
