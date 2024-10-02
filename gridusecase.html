@@ -2,9 +2,36 @@
 <html>
     <head>
         <title> Grid Use case</title>
+        <style>
+            .parent{
+                height: 100%;
+                display: grid;
+                grid-template-rows: 10 80 10;
+                grid-template-columns: 15 70 15;
+            }
+            .header{
+                background-color: lightcoral;
+            }
+            .leftmenu{
+                background-color: lightblue;
+            }
+            .main{
+                background-color: brown;
+            }
+            .righmenu{
+                background-color: lightgreen;
+            }
+            .footer{
+                background-color: blueviolet;
+            }
+
+
+        </style>
     </head>
     <body>
+        <!--parent -->
         <div class="parent">
+            <!--GRID ITEM1 -->
             <div class="header">KLU</div>
             <div class="leftmenu">Menu</div>
             <div class="main">Main</div>
